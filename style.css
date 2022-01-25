@@ -208,6 +208,9 @@ margin-bottom: 30%;
       body{
           margin: 0;
       }
+      main{
+          overflow-x: hidden;
+      }
       .nav{
           width: 370px; 
       }
@@ -264,7 +267,7 @@ margin-bottom: 30%;
       }
       .lastskill{
           width: 100%;
-          margin-left: 1%;
+          margin-left: 10%;
           padding-bottom: 40px;
       }
       .lastskill h2{
@@ -282,5 +285,33 @@ margin-bottom: 30%;
 
 
 
+
+  }
+
+  @media only screen and  (min-width:688px) and (max-width:992px){
+      main{
+          overflow: hidden;
+      }
+    .nav{
+        width: 750px; 
+    }
+
+    .lastskill{
+        width: 100%;
+        margin-left: 20%;
+        padding-bottom: 40px;
+    }
+    .second-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        
+       
+
+    }
+    .hobbies li{
+        font-size: 25px;
+        
+    }
 
   }
