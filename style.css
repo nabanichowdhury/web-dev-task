@@ -205,11 +205,14 @@ margin-bottom: 30%;
   }
 
   @media only screen and (max-width:688px){
+      body{
+          margin: 0;
+      }
       .nav{
-          width: 300px; 
+          width: 370px; 
       }
       .nav-items{
-          font-size: 8px;
+          font-size: 15px;
           display: inline;
       }
       .nav-items-right{
@@ -220,4 +223,64 @@ margin-bottom: 30%;
           
 
       }
+      .first-para h1{
+          font-size: 20px;
+      }
+      .first-para{
+          margin-left: 10px;
+      }
+      .first-para p{
+          font-size: 13px;
+      }
+      .button{
+          display: flex;
+      }
+      .btnone{
+          padding: 5px 5px;
+      }
+      .btntwo{
+          padding: 5px 5px;
+      }
+      .second-section{
+          margin-top: 40px;
+          margin-left: 0;
+         
+
+      }
+      .second-section span{
+          font-size: 30px;
+          margin-left: 60px;
+          
+      }
+      .second-section ul{
+          padding-left: 10px;
+      }
+      .hobbies li{
+          font-size: 10px;
+          
+      }
+      .skills-heading span{
+          font-size: 30px;
+      }
+      .lastskill{
+          width: 100%;
+          margin-left: 1%;
+          padding-bottom: 40px;
+      }
+      .lastskill h2{
+          font-size: 20px;
+      }
+      .progress1 {
+          width: 80%;
+      }
+      .progress2 {
+          width: 80%;
+      }
+      .progress3 {
+          width: 80%;
+      }
+
+
+
+
   }
