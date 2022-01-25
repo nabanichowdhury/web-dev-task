@@ -60,6 +60,13 @@ body{
     font-weight: 800;
     font-size: 50px;
 }
+.firstimagediv{
+    margin-top: -50px;
+}
+.firstimage{
+    width: 500px;
+    margin-right: 40px;
+}
 button{
     margin-left: 5px;
     margin-top: 15px;
@@ -212,7 +219,7 @@ margin-bottom: 30%;
           overflow-x: hidden;
       }
       .nav{
-          width: 370px; 
+          width: 400px; 
       }
       .nav-items{
           font-size: 15px;
@@ -226,14 +233,25 @@ margin-bottom: 30%;
           
 
       }
+      .first-section{
+          margin-top: 20px;
+      }
       .first-para h1{
           font-size: 20px;
       }
       .first-para{
           margin-left: 10px;
+          
       }
       .first-para p{
           font-size: 13px;
+      }
+      .firstimagediv{
+          width: 200px;
+      }
+      .firstimage{
+          width: 200px;
+          margin-top: 40px;
       }
       .button{
           display: flex;
@@ -245,7 +263,7 @@ margin-bottom: 30%;
           padding: 5px 5px;
       }
       .second-section{
-          margin-top: 40px;
+          margin-top: 60px;
           margin-left: 0;
          
 
