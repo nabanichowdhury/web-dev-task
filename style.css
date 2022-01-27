@@ -298,9 +298,7 @@ margin-bottom: 30%;
           margin-left: 10%;
           padding-bottom: 40px;
       }
-      .lastpara{
-          margin-top: 10%;
-      }
+      
       .lastskill h2{
           font-size: 20px;
       }
@@ -342,6 +340,11 @@ margin-bottom: 30%;
        
 
     }
+    .second-section{
+        margin-top: 40%;
+        margin-left: -15%;
+
+    }
     .hobbies li{
         font-size: 25px;
         
@@ -349,3 +352,10 @@ margin-bottom: 30%;
 
 
   }
+  @media only screen and (min-width:1280px){
+    .second-section{
+        
+        margin-left: 10%;
+
+    }
+}
