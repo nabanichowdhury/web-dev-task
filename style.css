@@ -262,31 +262,44 @@ margin-bottom: 30%;
       .btntwo{
           padding: 5px 5px;
       }
+      /* hobby section  */
       .second-section{
           margin-top: 60px;
           margin-left: 0;
+          margin-bottom: 17%;
          
 
       }
       .second-section span{
           font-size: 30px;
-          margin-left: 60px;
+          
+          margin-left: 40%;
           
       }
       .second-section ul{
           padding-left: 10px;
+          
+      }
+      .hobbies{
+          text-align: center;
+         
       }
       .hobbies li{
           font-size: 10px;
           
       }
+      /* skill section  */
       .skills-heading span{
           font-size: 30px;
+          margin-left: 40%;
       }
       .lastskill{
           width: 100%;
           margin-left: 10%;
           padding-bottom: 40px;
+      }
+      .lastpara{
+          margin-top: 10%;
       }
       .lastskill h2{
           font-size: 20px;
@@ -313,6 +326,8 @@ margin-bottom: 30%;
     .nav{
         width: 750px; 
     }
+    
+
 
     .lastskill{
         width: 100%;
@@ -331,5 +346,6 @@ margin-bottom: 30%;
         font-size: 25px;
         
     }
+
 
   }
