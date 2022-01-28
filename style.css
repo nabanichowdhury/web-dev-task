@@ -244,7 +244,7 @@ margin-bottom: 30%;
           
       }
       .first-para p{
-          font-size: 7px;
+          font-size: 8px;
       }
       .firstimagediv{
           width: 200px;
@@ -256,11 +256,14 @@ margin-bottom: 30%;
       .button{
           display: flex;
       }
+      button a{
+          font-size: 10px;
+      }
       .btnone{
-          padding: 5px 5px;
+          padding: 5px 7px;
       }
       .btntwo{
-          padding: 5px 5px;
+          padding: 5px 10px;
       }
       /* hobby section  */
       .second-section{
